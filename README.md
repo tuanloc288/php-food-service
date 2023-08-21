@@ -1,7 +1,6 @@
 ### About this project
-This is an old php project that i made in my 2nd year of college 
-Back at that time im still new to web programming and php
-So the UI might not look good and the features are also very limited
+This is an old php project that i made in my 2nd year of college. 
+Back at that time im still new to web programming and php so the UI might not look good and the features are also very limited.
 The code isn't clean at all and folder structure is a mess too
 
 ### Features: 
