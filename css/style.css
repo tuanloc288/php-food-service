@@ -1,0 +1,421 @@
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.btn-primary{
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    color: white;
+    background-color: #ff4757;
+}
+.btn-secondary{
+    background-color: #7bed9f;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    background-color: black;
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+    color: white;
+}
+
+legend {
+    font-weight: bold;
+}
+
+.error{
+    padding: 2%;
+    color: red;
+}
+.success{
+    padding: 2%;
+    color: green;
+}
+
+
+/* CSSS for navbar section */
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for Food SEarch Section */
+
+.food-search{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
+
+.login {
+    width:300px;
+    padding: 40px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    background-color: black;
+    text-align: center;
+    display: none;
+    animation-name: popup;
+    animation-duration: 2s;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+
+@keyframes popup { 
+    0%{
+        top:0;
+    }
+    1000%{
+        top:50%;
+    }
+}
+
+.login h1{
+    color: goldenrod;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: 0.5s;
+    margin: 0px 60px;
+    border-radius: 24px;
+}
+
+.login h1:hover{
+    color:red;
+    background:goldenrod;
+    box-shadow: 0 0 20px goldenrod,0 0 40px goldenrod,0 0 60px goldenrod,0 0 80px goldenrod;
+    border-radius: 24px;
+}
+
+.login input[type = "text"], .login input[type = "password"]{
+    border: 0;
+    background: none;
+    display:block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px;
+    width: 200px;
+    outline: none;
+    color:white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.login input[type = "text"]:focus , .login input[type = "password"]:focus{
+    width: 250px;
+    border-color: #2ecc71;
+}
+
+.login input[type = "submit"] , .login input[type="button"] {
+    border: 0;
+    background: none;
+    display:block;
+    margin: 5px auto;
+    text-align: center;
+    border-width: 2px;
+    border-style: solid;
+    padding: 14px 40px;
+    outline: none;
+    color:white;
+    border-radius: 24px;
+    cursor:pointer;
+    display: inline-block;
+}
+
+.login input[type = "submit"]:not(.regiser){
+    border-color: #2ecc71;
+}
+
+.login input[type = "submit"]:hover:not(.regiser) {
+    background-color: #2ecc71;
+}
+
+.login input[type = "submit"]{
+    border-color: goldenrod;
+}
+
+.login input[type = "submit"]:hover{
+    background-color: goldenrod;
+}
+
+.login input[type = "button"]{
+    border-color: red;
+}
+
+.login input[type = "button"]:hover {
+    background-color: red;
+}
+
+.login p {
+    margin-top: 10px;
+}
+
+.cart {
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.yourCart {
+    margin: 1%;
+    width: 65%;
+    color: black;
+    background-color: black;
+    border: 1px solid white;
+    float: left;
+    height: max-content;
+}
+
+.information {
+    margin: 1%;
+    width: 30%;
+}
+
+.customer-info , .cart-info {
+    width: 100%;
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    margin: 1%;
+}
