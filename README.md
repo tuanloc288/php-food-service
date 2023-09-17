@@ -1,3 +1,8 @@
+![Home](https://res.cloudinary.com/dbiliw2ja/image/upload/v1694932353/Home_qo8lmy.png)
+![Category](https://res.cloudinary.com/dbiliw2ja/image/upload/v1694932354/Category_s8qzgu.png)
+![Cart](https://res.cloudinary.com/dbiliw2ja/image/upload/v1694932352/Cart_phmmiw.png)
+![Admin dashboard](https://res.cloudinary.com/dbiliw2ja/image/upload/v1694932351/Admin_y3plgn.png)
+
 ### About this project
 This is an old php project that i made in my 2nd year of college. 
 Back at that time im still new to web programming and php so the UI might not look good and the features are also very limited.
