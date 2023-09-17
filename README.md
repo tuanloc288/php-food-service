@@ -18,6 +18,12 @@ The code isn't clean at all and folder structure is a mess too
     - Can see all orders and total revenue
     - Can access to account/category/food management such as create,update,delete
 
+### Cloning the repository
+
+```shell
+git clone https://github.com/tuanloc288/php-food-service.git
+```
+
 ### How to run
 Run xampp then go to your localhost/phpmyadmin and import doanweb2.sql, this will do for the database
 Then just run the index file on your browser (localhost/[yourfoldername]/index.php)
